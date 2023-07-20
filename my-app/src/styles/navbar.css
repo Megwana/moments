@@ -1,0 +1,22 @@
+/* custom.css */
+.navbar-brand {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    /* Add any other custom styles you want for the Navbar Brand */
+  }
+
+  .navbar-toggler:hover {
+    border-color: white;
+  }
+
+/* Navbar.css */
+.custom-navbar {
+    background-color: #cb2525;
+  }
+
+.navbar-toggler:focus {
+    box-shadow:  none !important;
+  }
+  
+
+  

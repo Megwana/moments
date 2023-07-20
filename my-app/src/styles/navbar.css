@@ -1,7 +1,8 @@
 /* custom.css */
 .navbar-brand {
-    font-family: "Roboto", sans-serif;
-    font-size: 24px;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 26px !important;
+
     /* Add any other custom styles you want for the Navbar Brand */
   }
 
@@ -17,6 +18,19 @@
 .navbar-toggler:focus {
     box-shadow:  none !important;
   }
+
+/* navbar.css */
+.custom-navbar .navbar-brand-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-navbar .running-logo {
+    width: 30px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height to maintain the aspect ratio */
+    color: aliceblue;
+  }
+  
   
 
   

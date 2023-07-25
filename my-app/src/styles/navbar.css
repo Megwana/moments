@@ -30,6 +30,13 @@
     height: auto; /* Adjust the height to maintain the aspect ratio */
     color: aliceblue;
   }
+
+@media only screen and (min-width: 991px) {
+.navbar-nav {
+  position: absolute;
+  right: 150px;
+}
+}
   
   
 
